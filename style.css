@@ -1,0 +1,130 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    background-color: black;
+}
+
+.container {
+    display:flex;
+    /* flex-direction: column; */
+    /* height: 15vh; */
+    margin: 0% 1%;
+    padding: 0%;
+    /* border: 2px solid red; */
+    justify-content:space-between;
+    /* align-items: center; */
+}
+
+#logo {
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 8vw;
+    height: 5vw;
+    margin-left: 1vw;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    filter: invert(100%);
+}
+
+
+
+
+
+#navbar{
+    display: flex;
+    font-family: 'Caveat', cursive;
+    /* border: 2px solid red; */
+    /* margin: 1px; */
+}
+#navbar #list{
+    display: flex;
+    list-style: none;
+    padding: 2vw 0vw;
+    height: 4vh;
+}
+#navbar #list .btn a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    margin-top: -1em;
+    margin: 2rem 2rem;
+    padding: 0em 2rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    /* line-height: 150%; */
+    align-self: center;
+}
+#navbar #list .btn a:hover {
+    cursor: pointer;
+    color: black;
+    /* border: 2px solid grey; */
+    background-color: white;
+    transition: background-color 2s ease ;
+
+}
+#pic{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 65vh;
+    /* margin-top: 5em; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: rgba(14, 76, 232, 0.151);
+    /* background-image: url(kunal\ pic.jpeg);
+    opacity: 50%; */
+}
+#pic img{
+    /* border: 2px solid red; */
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    margin-left: 10vw;
+    /* padding: 5vh 0vh; */
+    border-radius: 50%;
+    filter:opacity(85%) !important;
+}
+#bait{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+    opacity: 100% !important;
+    /* justify-items: center; */
+
+}
+#bait a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    /* position: relative; */
+    animation-name: blink1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink1 {
+    0%{
+        color: white;
+    }
+    25%{
+        color: rgb(192, 139, 43);
+    }
+    75%{
+        color:rgb(70, 129, 241)
+    }
+    100%{
+        color: white;
+    }
+}
+#bait a:hover{
+    animation-play-state: paused;
+}
+/* #pic #para{
+    border: 2px solid red;
+    display: inline-block;
+    color: white;
+    text-align: center;
+} */
+

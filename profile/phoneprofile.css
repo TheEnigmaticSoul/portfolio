@@ -1,0 +1,32 @@
+#greet{
+    position: absolute;
+    top: 8vh;
+    width: 60vw;
+    font-size: 7vw;
+    margin-left: 20vw;
+}
+#hello{
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+}
+#para{
+    font-size: 5vw;
+}
+#back{
+    padding-right: 1vh;
+    padding-left: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    font-size: 1.5vh;
+
+}
+#back:hover{
+    background-color: rgba(74, 73, 73, 0.493);
+    color: rgb(37, 36, 36);
+}
+#dp #img{
+    width: 8vh;
+    height: 9vh;
+
+}

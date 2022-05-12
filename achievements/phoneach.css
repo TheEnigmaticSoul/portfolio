@@ -1,0 +1,20 @@
+#screen{
+    height: 20vh;
+    background-size: 100vw 15vh;
+    background-size: cover;
+}
+.item{
+    font-size: 2.5vh;
+}
+#screen>a{
+    font-size: 2vh;
+    height: 4vh;
+    border-radius: 50vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#logo{
+    width: 8vh;
+    height: 5vh;
+}

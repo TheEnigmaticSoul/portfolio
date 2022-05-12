@@ -1,0 +1,31 @@
+#bg{
+    height: 20vh;
+    background-size: cover;
+}
+#ids{
+    flex-direction: column;
+    align-items: center;
+}
+.tags{
+    width: 7vh;
+    height: 7vh;
+    margin-top: 3vh;
+}
+#bg>a{
+    position: absolute;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50vh;
+    width: 40vw;
+    height: 5vh;
+    bottom: 10vh;
+    top:80vh;
+    left: 22.5vw;
+    right: 22.5vw;
+    margin-top: 2vh;
+    
+}
+#logo{
+    width: 10vh;
+    height: 7.5vh;
+}

@@ -1,0 +1,222 @@
+/* css reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+}
+body > div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background: url("bg.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.167);
+    background-blend-mode: multiply;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+div > p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 0.2em;
+}
+#line1{
+    display:inline-block;
+    font-size: 7vh;
+    text-shadow: 2px 2px rgb(143, 68, 212);
+    animation-name: line1a;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes line1a {
+    0%{
+        opacity: 0.25;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity:0.75;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#line2{
+    display: inline-block;
+    /* visibility: hidden; */
+    position: absolute;
+    top: 2vh;
+    font-size: 6vh;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    text-shadow: 1px 1px rgb(143, 68, 212);
+    animation-name: line2a;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes line2a{
+    0%{
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 0;
+    }
+    65%{
+        opaacity:0.75;
+    }
+    80%{
+        opacity: 1;
+    }
+
+}
+#line3{
+    display: inline-block;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* top: 7vh; */
+    font-size: 6vh;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    text-shadow: 1px 1px rgb(143, 68, 212);;
+    animation-name: line3a;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes line3a{
+    0%{
+        opacity: 0;
+    }
+    66%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+}
+#line4{
+    display: inline-block;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* top: 12vh; */
+    font-size: 6vh;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    text-shadow: 1px 1px rgb(143, 68, 212);;
+    animation-name: line4a;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes line4a{
+    0%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+}
+#line5{
+    display: inline-block;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* top: 18vh; */
+    font-size: 6vh;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    width: 70vw;
+    text-align: center;
+    text-shadow: 1px 1px rgb(143, 68, 212);;
+    animation-name: line5a;
+    animation-duration: 14s;
+    animation-fill-mode: forwards;
+}
+@keyframes line5a{
+    0%{
+        opacity: 0%;
+    }
+    68%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+}
+#line6{
+    display: inline-block;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* top: 24vh; */
+    font-size: 6vh;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    text-shadow: 1px 1px rgb(143, 68, 212);;
+    animation-name: line6a;
+    animation-duration: 13s;
+    animation-fill-mode: forwards;
+}
+@keyframes line6a {
+    0%{
+        opacity: 0;
+    }
+    86%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#line7{
+    display: inline-block;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* top: 30vh; */
+    font-size: 6vh;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 25px;
+    text-shadow: 1px 1px rgb(143, 68, 212);;
+    animation-name: line7a;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+@keyframes line7a {
+    0%{
+        opacity: 0;
+    }
+    86.5%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.check {
+    text-decoration: none;
+    margin-top: 2em;
+    /* margin-bottom: 0.2em; */
+    padding: 0.2em;
+    color: white;
+    /* text-shadow: 3px 3px rgb(23, 23, 43); */
+    font-size: 4vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+#go{
+    margin-top: 0.2em!important; 
+}
+.check:hover{
+    background-color: rgba(19, 19, 19, 0.457);
+    color: rgba(255, 255, 255, 0.856);
+}

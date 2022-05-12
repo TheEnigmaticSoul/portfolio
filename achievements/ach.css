@@ -1,0 +1,67 @@
+/* css reset */
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+#list{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 0em 2em;
+    padding: 0em 2em;
+    /* background-color: aqua; */
+    list-style-image: url(list.png);
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    /* border: 2px solid red; */
+    /* display: inline; */
+    margin: auto auto;
+    font-size: 2vw;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 0.05em;
+}
+#screen{
+    display: flex;
+    background: url(achbg.jpg);
+    width: 100vw;
+    height: 33.33vh;
+    background-size: 100vw 18vw;
+    background-repeat: no-repeat;
+
+    opacity: 0.7;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#screen>a{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    width: 10vw;
+    height: 2vw;
+    justify-content: center;
+    margin: auto 2vw;
+    margin-top: 5vh;
+    text-decoration: none;
+    /* position: absolute; */
+    /* top: 1em; */
+    /* right: 1em; */
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    padding: 0.5em 1em;
+    border-radius: 12vw;
+}
+#logo {
+    /* border: 2px solid red; */
+    width: 8vw;
+    height: 5vw;
+    margin-left: 2vw;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    /* filter: invert(100%); */
+}
+#screen>a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}

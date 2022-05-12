@@ -1,0 +1,23 @@
+.icon{
+    margin: 0.5vh;
+}
+.image{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 12vh;
+    height: 12vh;
+    padding: 1vh;
+}
+.para{
+    padding: 0vh 0.2vh;
+    font-size: 2.5vh;
+    text-align: center;
+    border-radius: 1vh;
+
+}
+#div>a{
+    position: absolute;
+    font-size: 2vh;
+    border-radius: 50vh;
+    text-align: center;
+}
